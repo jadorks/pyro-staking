@@ -1,10 +1,11 @@
 import './App.css';
+import Home from './pages/home';
 
 function App() {
   return (
-    <h1 className='montserrat-bold-25 underline'>
-      Hello World!
-    </h1>
+    <div className='App'>
+      <Home />
+    </div>
   );
 }
 
