@@ -1,0 +1,28 @@
+.container{
+    @apply flex flex-col items-start text-white bg-[#202020] w-full lg:w-[22rem] py-4 pb-8;
+    @apply rounded-2xl border-t-red-500 border-t-4 border-b-black border-b-8;
+}
+
+.content{
+    @apply w-full px-8;
+}
+
+.info__header{
+    @apply flex justify-between items-center;
+}
+
+.info__header p{
+    @apply montserrat-med-12 text-[#807F7E];
+}
+
+.info__header img{
+    @apply h-auto w-8;
+}
+
+.info__value{
+    @apply flex flex-col items-start pt-2;
+}
+
+.info__value p{
+    @apply montserrat-bold-25;
+}

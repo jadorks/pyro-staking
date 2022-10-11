@@ -25,6 +25,10 @@ module.exports = {
           fontFamily: theme("fontFamily.montserrat_med"),
           fontSize: "10px",
         },
+        ".montserrat-med-12":{
+          fontFamily: theme("fontFamily.montserrat_med"),
+          fontSize: "12px",
+        },
         ".montserrat-med-14":{
           fontFamily: theme("fontFamily.montserrat_med"),
           fontSize: "14px",
@@ -32,6 +36,10 @@ module.exports = {
         ".montserrat-med-15":{
           fontFamily: theme("fontFamily.montserrat_med"),
           fontSize: "15px",
+        },
+        ".montserrat-med-18":{
+          fontFamily: theme("fontFamily.montserrat_med"),
+          fontSize: "18px",
         },
         ".montserrat-bold-25":{
           fontFamily: theme("fontFamily.montserrat_bold"),

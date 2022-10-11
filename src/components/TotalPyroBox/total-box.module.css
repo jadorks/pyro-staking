@@ -1,0 +1,32 @@
+.container {
+  @apply w-full flex flex-col items-start text-white bg-[#202020] py-4;
+  @apply rounded-2xl border-t-red-500 border-t-4 border-b-black border-b-8;
+}
+
+.content {
+  @apply w-full px-8;
+}
+
+.info__header {
+  @apply flex justify-between items-center;
+}
+
+.info__header h2 {
+  @apply nexa-reg-20;
+  background: linear-gradient(90deg, #f9d207 0%, #f92032 78%, #f92032 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.info__value {
+  @apply flex items-center gap-2;
+}
+
+.info__value p {
+  @apply montserrat-bold-31;
+}
+
+.usdt_value {
+  @apply flex justify-end pt-2;
+  @apply montserrat-med-12 text-[#807F7E];
+}

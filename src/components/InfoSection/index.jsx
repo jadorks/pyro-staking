@@ -1,9 +1,18 @@
-import React from 'react'
+import React from "react";
+import InfoBox from "../InfoBox";
+import TimeBox from "../TimeBox";
+import style from "./info-section.module.css";
 
 const InfoSection = () => {
   return (
-    <div>InfoSection</div>
-  )
-}
+    <div className={style.container}>
+      <div className={style.content}>
+        <InfoBox />
+        <InfoBox />
+        <TimeBox />
+      </div>
+    </div>
+  );
+};
 
-export default InfoSection
+export default InfoSection;

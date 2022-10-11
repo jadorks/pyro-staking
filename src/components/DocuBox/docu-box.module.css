@@ -1,0 +1,44 @@
+.container{
+    @apply flex flex-col items-start text-white bg-[#202020] w-full py-8;
+    @apply rounded-2xl border-t-red-500 border-t-4 border-b-black border-b-8;
+}
+
+.content{
+    @apply w-full px-6;
+}
+
+.info__header{
+    @apply flex justify-between items-center pb-4;
+    border-width: 0 0 2px;
+    border-style: solid;
+    border-image: linear-gradient(90deg, #F9D207 0%, #F92032 78%, #F92032 100%) 1;
+}
+
+.info__body{
+    @apply flex flex-col pt-4 gap-4;
+}
+
+.info__title{
+    @apply nexa-reg-20;
+    background: linear-gradient(90deg, #F9D207 0%, #F92032 78%, #F92032 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.info__link {
+    @apply flex gap-1 montserrat-med-15 items-center;
+}
+
+.body__content{
+    @apply flex justify-between gap-8;
+}
+
+.body__content p {
+    @apply nexa-reg-20;
+}
+
+.apr{
+    @apply montserrat-med-18 text-[#00FF29] px-3;
+    background: url("../../assets/images/apr-background.svg") no-repeat center;
+    background-size: contain;
+}
