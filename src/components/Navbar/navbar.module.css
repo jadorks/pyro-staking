@@ -1,5 +1,5 @@
 .navbar{
-    @apply w-full flex justify-between items-center px-32 py-8;
+    @apply w-full flex justify-between items-center px-8 xl:px-32 py-8;
 }
 
 .connect_btn{

@@ -21,6 +21,10 @@ module.exports = {
           fontFamily: theme("fontFamily.montserrat_reg"),
           fontSize: "12px",
         },
+        ".montserrat-reg-14":{
+          fontFamily: theme("fontFamily.montserrat_reg"),
+          fontSize: "14px",
+        },
         ".montserrat-med-10":{
           fontFamily: theme("fontFamily.montserrat_med"),
           fontSize: "10px",

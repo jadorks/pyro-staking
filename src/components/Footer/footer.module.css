@@ -1,23 +1,24 @@
 .footer__container{
     margin-top: auto;
-    @apply flex justify-center items-center w-full px-32;
+    @apply flex justify-center items-center w-full xl:px-32 py-4;
 }
 
 .footer__content{
-    @apply flex justify-between w-full;
+    @apply flex flex-col items-center md:flex-row justify-between w-full px-4 xl:px-0;
     @apply border-t-red-500 border-t-2;
+
 }
 
 .footer__left{
-    @apply flex flex-col gap-2 pt-4;
+    @apply flex flex-col gap-2 pt-4 items-center md:items-start;
 }
 
 .footer__left h3{
-    @apply nexa-reg-15 text-white;
+    @apply nexa-reg-16 text-white;
 }
 
 .footer__left p{
-    @apply montserrat-reg-12;
+    @apply montserrat-reg-14;
     background: linear-gradient(90deg, #F9D207 0%, #F92032 78%, #F92032 100%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
