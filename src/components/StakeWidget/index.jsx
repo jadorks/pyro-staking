@@ -79,9 +79,6 @@ const StakeWidget = () => {
               min={0}
               max={100}
               marks={marks}
-              // sx={{
-              //   background:"linear-gradient(180deg, #FA6921 0%, #FA2032 100%, #FA2032 100%)"
-              // }}
             />
             <button>Max</button>
           </div>
