@@ -11,5 +11,5 @@
 }
 
 .content__right{
-    @apply flex flex-col gap-4 lg:gap-8 justify-center items-center lg:justify-between;
+    @apply flex flex-col gap-4 lg:gap-5 justify-center items-center lg:justify-between;
 }

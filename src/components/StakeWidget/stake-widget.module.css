@@ -9,7 +9,7 @@
 
 .stake__header{
     @apply flex justify-between items-center pb-4;
-    border-width: 0 0 2px;
+    border-width: 0 0 1px;
     border-style: solid;
     border-image: linear-gradient(90deg, #F9D207 0%, #F92032 78%, #F92032 100%) 1;
 }

@@ -1,5 +1,5 @@
 .container{
-    @apply flex flex-col items-start text-white bg-[#202020] w-full py-8;
+    @apply flex flex-col items-start text-white bg-[#202020] w-full py-4;
     @apply rounded-2xl border-t-red-500 border-t-4 border-b-black border-b-8;
 }
 
