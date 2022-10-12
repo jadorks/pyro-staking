@@ -3,12 +3,12 @@ import style from "./info-box.module.css";
 import Info1 from "../../assets/images/info_one.svg";
 import PyroSymbol from "../../assets/images/pyro-symbol.svg";
 
-const InfoBox = () => {
+const InfoBox = ({title}) => {
   return (
     <div className={style.container}>
       <div className={style.content}>
         <div className={style.info__header}>
-          <p>Holder Amount Staked</p>
+          <p>{title}</p>
           <img src={Info1} alt="" />
         </div>
         <div className={style.info__value}>

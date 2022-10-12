@@ -7,8 +7,8 @@ const InfoSection = () => {
   return (
     <div className={style.container}>
       <div className={style.content}>
-        <InfoBox />
-        <InfoBox />
+        <InfoBox title={"Holder Amount Staked"}/>
+        <InfoBox title={"Holder Amount Earned"}/>
         <TimeBox />
       </div>
     </div>
