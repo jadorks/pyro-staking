@@ -1,4 +1,4 @@
-import React, { Fragment } from "react";
+import React, { Fragment, useState } from "react";
 import { Dialog, Transition } from "@headlessui/react";
 import style from "./wallet-manager.module.css";
 import MetaMask from "../../assets/images/metamask.png";
@@ -25,7 +25,8 @@ const providers = [
 ]
 
 function WalletManager({ isOpen, onCloseModal }) {
-    const isAuthenticated = false;
+
+    const [isAuthenticated, setIsAuthenticated] = useState(false);
     const walletAddress = "0xabcd";
 
     return(
@@ -71,7 +72,7 @@ function WalletManager({ isOpen, onCloseModal }) {
                   <ul className={style.wallet_dialog_providers_list}>
                     {providers.map(({ options, displayName, icon }, key) => (
                       <li key={key}>
-                        <button onClick={() => isAuthenticated=true}>
+                        <button onClick={() => setIsAuthenticated(false)}>
                           <img src={icon} alt={displayName} />
                           <span>{displayName}</span>
                         </button>
@@ -125,8 +126,6 @@ function WalletManager({ isOpen, onCloseModal }) {
                   <div className={style.wallet_dialog_provider}>
                     <p>Connected with X</p>
                     <button
-                    //   type="outlined"
-                      onClick={()=>{console.log("first")}}
                       className={style.wallet_dialog_disconnect}
                     >
                       Disconnect
