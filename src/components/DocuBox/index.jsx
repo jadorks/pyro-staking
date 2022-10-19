@@ -9,7 +9,7 @@ const DocuBox = () => {
         <div className={style.info__header}>
           <p className={style.info__title}>More Info</p>
           <a
-            href="https://google.com"
+            href="https://pyrodapp.com"
             target="_blank"
             rel="noreferrer"
             className={style.info__link}
@@ -22,7 +22,7 @@ const DocuBox = () => {
           <div className={style.body__content}>
             <p>Pyro Staking Instructions</p>
             <a
-              href="https://google.com"
+              href="https://pyrodapp.com"
               target="_blank"
               rel="noreferrer"
               className={style.info__link}
