@@ -35,7 +35,7 @@
 }
 
 .info__value {
-  @apply flex items-center gap-2;
+  @apply flex md:flex-row flex-col items-start md:items-center md:gap-2;
 }
 
 .info__value p {

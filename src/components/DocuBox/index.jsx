@@ -23,8 +23,8 @@ const DocuBox = () => {
           <div className={style.body__content}>
             <p>Pyro Max Supply</p>
             <div className="flex items-center gap-2">
-              <img src={PyroSymbol} alt=""/>
-              <p className="pt-1">1000000</p>
+              <img src={PyroSymbol} className="shrink" alt=""/>
+              <p className="pt-1 grow">1000</p>
             </div>
           </div>
           <div className={style.body__content}>
