@@ -1,6 +1,6 @@
 .container{
     position: relative;
-    @apply flex flex-col items-start bg-[#202020] text-white w-full lg:w-[22rem] py-4 pb-8;
+    @apply flex flex-col items-start bg-[#202020] text-white w-full lg:w-[22rem] py-4 lg:h-[10rem];
     @apply rounded-2xl border-b-black border-b-8;
     z-index:0;
 }
@@ -41,4 +41,9 @@
 
 .info__value p{
     @apply montserrat-bold-25;
+}
+
+.usdt_value{
+    @apply flex;
+    @apply montserrat-med-12 text-[#807F7E];
 }

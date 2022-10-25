@@ -13,8 +13,9 @@ const InfoBox = ({title}) => {
         </div>
         <div className={style.info__value}>
           <img src={PyroSymbol} alt="" />
-          <p>$0,000,000.00</p>
+          <p>100</p>
         </div>
+        <div className={style.usdt_value}>USDT Value: $0,000.00</div>
       </div>
     </div>
   );

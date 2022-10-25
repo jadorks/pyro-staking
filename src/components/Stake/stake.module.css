@@ -1,5 +1,5 @@
 .container{
-    @apply flex justify-center px-1 md:px-32 lg:px-0 pt-12 lg:pb-4;
+    @apply flex justify-center px-16 md:px-32 lg:px-0 pt-12 pb-4 lg:pb-4;
 }
 
 .content{
