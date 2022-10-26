@@ -1,7 +1,6 @@
 import React from "react";
 import style from "./docu-box.module.css";
 import ExternalLink from "../../assets/images/external-link.svg";
-import PyroSymbol from "../../assets/images/pyro-symbol.svg";
 
 const DocuBox = () => {
   return (
@@ -10,7 +9,7 @@ const DocuBox = () => {
         <div className={style.info__header}>
           <p className={style.info__title}>More Info</p>
           <a
-            href="https://pyrodapp.com"
+            href="https://etherscan.io/token/0x89568569da9c83cb35e59f92f5df2f6ca829eeee"
             target="_blank"
             rel="noreferrer"
             className={style.info__link}
@@ -20,13 +19,6 @@ const DocuBox = () => {
           </a>
         </div>
         <div className={style.info__body}>
-          <div className={style.body__content}>
-            <p>Pyro Max Supply</p>
-            <div className="flex items-center gap-2">
-              <img src={PyroSymbol} className="shrink" alt=""/>
-              <p className="pt-1 grow">1000</p>
-            </div>
-          </div>
           <div className={style.body__content}>
             <p>Pyro Staking Instructions</p>
             <a
